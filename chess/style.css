@@ -1,0 +1,63 @@
+
+
+.bord
+{
+    height: 600px;
+    width: 60%;
+    background-color: black;
+    position: absolute;
+    left: 25%;
+    border: 1px solid black;
+   
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background:url(image/bg.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.white
+{
+    background-color: white;
+    height: 75px;
+    width: 12.5%;
+    float: left;
+}
+.black
+{
+    background-color: black;
+    height: 75px;
+    width: 12.5%;
+    float: left;
+}
+img
+{
+    width: 100%;
+    height: 75px;
+    transition: all ease 0.4s;
+    overflow: hidden;
+}
+.icon .white:hover
+{
+    border: 2px solid black;
+}
+.icon .black:hover
+{
+    border: 2px solid white;
+}
+.icon .white:hover img
+{
+    transform: scale(0.8);
+}
+.icon .black:hover img
+{
+    transform: scale(0.8);
+}
